@@ -146,7 +146,7 @@ class LinkedList {
                 cout << "Priority (regular/business/special needs): ";
                 cin >> passengerToEdit->priority;
                 cout << "Passenger details updated successfully.\n";
-                logOperation("Modified passenger: " + passengerToEdit->name + "Priority" + priority);
+                logOperation("Modified passenger: " + passengerToEdit->name + "Priority" + passengerToEdit->priority);
             }
         }
 
